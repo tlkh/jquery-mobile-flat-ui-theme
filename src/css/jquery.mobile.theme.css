@@ -30,7 +30,7 @@ legend,
 .ui-input-text input,
 .ui-input-search input {
 	color: inherit;
-	text-shadow: inherit;
+	text-shadow: none;
 }
 
 h3 {
@@ -160,9 +160,9 @@ html .ui-alt-icon .ui-radio-off:after {
 /* Icon shadow */
 .ui-shadow-icon.ui-btn:after,
 .ui-shadow-icon .ui-btn:after {
-	-webkit-box-shadow: 0 1px 0 			rgba(255,255,255,.3);
-	-moz-box-shadow: 0 1px 0 				rgba(255,255,255,.3);
-	box-shadow: 0 1px 0 					rgba(255,255,255,.3);
+	-webkit-box-shadow: 0 0 0 			rgba(255,255,255,.3);
+	-moz-box-shadow: 0 0 0 				rgba(255,255,255,.3);
+	box-shadow: 0 0 0 					rgba(255,255,255,.3);
 }
 /* Checkbox and radio */
 .ui-btn.ui-checkbox-off:after,
