@@ -27,7 +27,9 @@ module.exports = function (grunt) {
       main: {
         files: [
           { src: 'generated/jquery.mobile.flatui.css', dest: 'demo/css/jquery.mobile.flatui.css' },
+          { expand: true, src: ['images/**'], cwd: 'src/css/', dest: 'demo/css/' },
           { expand: true, src: ['images/**'], cwd: 'src/css/', dest: 'generated/' },
+          { expand: true, src: ['fonts/**'], cwd: 'src/css/', dest: 'demo/css/' },
           { expand: true, src: ['fonts/**'], cwd: 'src/css/', dest: 'generated/' }
         ]
       }
