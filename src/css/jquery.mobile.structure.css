@@ -115,7 +115,6 @@ div.ui-mobile-viewport {
 	width: 12.5em;
 	filter: Alpha(Opacity=88);
 	opacity: .88;
-	box-shadow: 0 1px 1px -1px #fff;
 	height: auto;
 	margin-left: -6.875em;
 	margin-top: -2.6875em;
@@ -133,14 +132,11 @@ div.ui-mobile-viewport {
 	text-align: center;
 }
 .ui-loader .ui-icon-loading {
-	background-color: #000;
 	display: block;
 	margin: 0;
 	width: 2.75em;
 	height: 2.75em;
 	padding: .0625em;
-	-webkit-border-radius: 2.25em;
-	border-radius: 2.25em;
 }
 .ui-loader-verbose .ui-icon-loading {
 	margin: 0 auto .625em;
