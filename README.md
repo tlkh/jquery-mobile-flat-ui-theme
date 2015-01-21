@@ -8,7 +8,11 @@ Forked from [ququplay/jquery-mobile-flat-ui-theme](https://github.com/ququplay/j
 - Replaced internal PNG icons with SVG icons. Faster loading themes and resolution independent! 
 - New, nicer looking loader animation
 
+<img src="https://m1.behance.net/rendition/modules/152637041/disp/271b1c52d1fab00a70b1244cbf3950b4.jpeg" width=49%> <img src="https://m1.behance.net/rendition/modules/152637097/disp/6e655a54a4ef36d42afccb57c67dd77f.jpeg" width=49%>
+
 Refer to [tlkh/transitionmetals](https://github.com/tlkh/transitionmetals) or [tlkh/fightingships](https://github.com/tlkh/fightingships) to see implementation and how to modify iOS 7 and iOS 8 status bar colour.
+
+View the [live demo](http://tlkh.github.io/jquery-mobile-flat-ui-theme/).
 
 ## Usage
 
