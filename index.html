@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
   <script src="js/jquery.js"></script>
-  <script src="js/jquery.mobile-1.4.0-rc.1.js"></script>
+  <script src="js/jquery.mobile.js"></script>
 </head>
+
 <body>
   <div data-role="page">
 
@@ -21,25 +23,40 @@
     <div data-role="content" role="main">
       <p>Sample text and <a href="#">links</a>.</p>
       <fieldset class="ui-grid-a">
-        <div class="ui-block-a"><button data-icon="flat-settings" data-theme="a">Button A</button></div>
-        <div class="ui-block-b"><button data-icon="flat-new" data-theme="b">Button B</button></div>
+        <div class="ui-block-a">
+          <button data-icon="flat-settings" data-theme="a">Button A</button>
+        </div>
+        <div class="ui-block-b">
+          <button data-icon="flat-new" data-theme="b">Button B</button>
+        </div>
       </fieldset>
       <fieldset class="ui-grid-a">
-        <div class="ui-block-a"><button data-icon="flat-man" data-theme="c">Button C</button></div>
-        <div class="ui-block-b"><button data-icon="flat-mail" data-theme="d">Button D</button></div>
+        <div class="ui-block-a">
+          <button data-icon="flat-man" data-theme="c">Button C</button>
+        </div>
+        <div class="ui-block-b">
+          <button data-icon="flat-mail" data-theme="d">Button D</button>
+        </div>
       </fieldset>
       <fieldset class="ui-grid-a">
-        <div class="ui-block-a"><button data-icon="flat-lock" data-theme="e">Button E</button></div>
-        <div class="ui-block-b"><button data-icon="flat-menu" data-theme="f">Button F</button></div>
+        <div class="ui-block-a">
+          <button data-icon="flat-lock" data-theme="e">Button E</button>
+        </div>
+        <div class="ui-block-b">
+          <button data-icon="flat-menu" data-theme="f">Button F</button>
+        </div>
       </fieldset>
       <fieldset class="ui-grid-a">
-        <div class="ui-block-a"><button data-icon="flat-heart" data-theme="g">Button G</button></div>
+        <div class="ui-block-a">
+          <button data-icon="flat-heart" data-theme="g">Button G</button>
+        </div>
       </fieldset>
 
       <ul data-role="listview" data-inset="true">
         <li data-role="list-divider" data-theme="a">List Header</li>
         <li>Read-only list item</li>
-        <li><a href="#">Linked list item</a></li>
+        <li><a href="#">Linked list item</a>
+        </li>
       </ul>
 
       <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
@@ -62,7 +79,7 @@
           <input type="radio" name="radio-choice-a" data-theme="c" id="radio-choice-1-a" value="choice-1" checked="checked" />
           <label for="radio-choice-1-a">Radio 1</label>
 
-          <input type="radio" name="radio-choice-a" data-theme="c" id="radio-choice-1-b" value="choice-2"  />
+          <input type="radio" name="radio-choice-a" data-theme="c" id="radio-choice-1-b" value="choice-2" />
           <label for="radio-choice-1-b">Radio 2</label>
           <input type="checkbox" name="checkbox-a" data-theme="c" id="checkbox-a" checked="checked" />
           <label for="checkbox-a">Checkbox</label>
@@ -122,6 +139,7 @@
     </div>
   </div>
 
-  <div id="highlight"> </div>
+  <div id="highlight"></div>
 </body>
+
 </html>
