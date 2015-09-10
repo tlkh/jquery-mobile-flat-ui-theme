@@ -1,3 +1,7 @@
+## Update (04/13/2015)
+
+### Please check our new [Premium Themes](http://store.ququplay.com). We think you will like them.
+
 ## jQuery Mobile Flat-UI Theme
 
 Theme for jQuery Mobile based on [Flat-UI](http://designmodo.com/demo/flat-ui/).
